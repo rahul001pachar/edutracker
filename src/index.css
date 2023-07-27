@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply rounded p-1 m-1 bg-cyan-100 text-green-800
+}
+
+.button {
+    @apply p-2 rounded-full m-2 text-white bg-blue-800 hover:bg-green-300
+}
